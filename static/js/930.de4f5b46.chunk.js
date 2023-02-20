@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksalary_controller=self.webpackChunksalary_controller||[]).push([[930],{2930:function(r,n,o){o.r(n),o.d(n,{default:function(){return l}});o(2791);var e=o(7689),c=o(184);function l(){var r=(0,e.s0)();return console.error("Error 404: Page not found!"),(0,c.jsxs)("div",{className:"error404",children:[(0,c.jsx)("h1",{children:"Page Not Found"}),(0,c.jsx)("button",{onClick:function(){r("/")},children:"Go back"})]})}}}]);
+//# sourceMappingURL=930.de4f5b46.chunk.js.map
