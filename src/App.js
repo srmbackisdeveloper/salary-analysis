@@ -14,11 +14,11 @@ function App() {
 
   return (
     <div className='home'>
-      <BrowserRouter>
+      <BrowserRouter basename='/salary-analysis'>
         <Header />
         <Suspense fallback={<div className="body__spinner" ><Audio height = "80" width = "80" radius = "9" color = 'black' ariaLabel = 'three-dots-loading' wrapperStyle wrapperClass /></div>}>
           <Routes>
-            <Route element={<LogIn />} path='/'/>
+            <Route path='/' element={<LogIn />} />
             <Route element={<Main />} path='/main'/>
             <Route element={<Contacts />} path='/contacts'/>
             <Route element={<Error404 />} path='/*'/>
