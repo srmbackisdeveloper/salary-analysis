@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/salary-analysis/static/css/main.7d5e53fd.css",
-    "main.js": "/salary-analysis/static/js/main.43bb6b7f.js",
+    "main.js": "/salary-analysis/static/js/main.df830e29.js",
     "static/css/709.aa10ab14.chunk.css": "/salary-analysis/static/css/709.aa10ab14.chunk.css",
     "static/js/709.a6ef590f.chunk.js": "/salary-analysis/static/js/709.a6ef590f.chunk.js",
     "static/css/388.80875df7.chunk.css": "/salary-analysis/static/css/388.80875df7.chunk.css",
@@ -15,7 +15,7 @@
     "static/js/143.03026775.chunk.js": "/salary-analysis/static/js/143.03026775.chunk.js",
     "index.html": "/salary-analysis/index.html",
     "main.7d5e53fd.css.map": "/salary-analysis/static/css/main.7d5e53fd.css.map",
-    "main.43bb6b7f.js.map": "/salary-analysis/static/js/main.43bb6b7f.js.map",
+    "main.df830e29.js.map": "/salary-analysis/static/js/main.df830e29.js.map",
     "709.aa10ab14.chunk.css.map": "/salary-analysis/static/css/709.aa10ab14.chunk.css.map",
     "709.a6ef590f.chunk.js.map": "/salary-analysis/static/js/709.a6ef590f.chunk.js.map",
     "388.80875df7.chunk.css.map": "/salary-analysis/static/css/388.80875df7.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.7d5e53fd.css",
-    "static/js/main.43bb6b7f.js"
+    "static/js/main.df830e29.js"
   ]
 }
