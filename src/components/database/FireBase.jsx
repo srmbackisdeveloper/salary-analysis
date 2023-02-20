@@ -1,6 +1,6 @@
 import { getFirestore } from '@firebase/firestore';
 import { initializeApp } from 'firebase/app';
-//require('dotenv').config();
+
 const API_KEY = "AIzaSyBEUBgLAMVCeFcx90Ty3WAztJKTia_z3vQ"
 const APP_ID = "1:1065349031236:web:81cca4f57961efc026a311"
 
