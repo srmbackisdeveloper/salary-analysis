@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/style-form.css';
+import { lazy, Suspense } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import { Audio } from  'react-loader-spinner';
 
+const Main = lazy(() => import('./components/Main'));
+const LogIn = lazy(() => import('./components/LogIn'));
+const Contacts = lazy(() => import('./components/Contacts'));
+const Error404 = lazy(() => import('./components/Error404'));
+
+document.title = "Salary Balance"
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='home'>
+      <BrowserRouter>
+        <Header />
+        <Suspense fallback={<div className="body__spinner" ><Audio height = "80" width = "80" radius = "9" color = 'black' ariaLabel = 'three-dots-loading' wrapperStyle wrapperClass /></div>}>
+          <Routes>
+            <Route element={<LogIn />} path='/'/>
+            <Route element={<Main />} path='/main'/>
+            <Route element={<Contacts />} path='/contacts'/>
+            <Route element={<Error404 />} path='/*'/>
+          </Routes>
+        </Suspense>
+      </BrowserRouter>
     </div>
   );
 }

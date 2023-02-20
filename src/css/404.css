@@ -1,0 +1,23 @@
+.error404 {
+    text-align: center;
+    padding: 20px;
+}
+
+.error404 button {
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    color: white;
+    margin-top: 12px;
+    background-color: black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.error404 a {
+    color: white;
+}
+
+.error404 button:hover {
+    transform: scale(1.1);
+}
