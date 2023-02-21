@@ -13,7 +13,7 @@ export default function Confirmation(props) {
       <div className='confirmation-inner' onClick={(e) => e.stopPropagation()}>
         <h1>We would be more than <mark>happy</mark> if you leave some data for statistics</h1>
 
-        <p>You want to return?</p>
+        <p>You want to stay?</p>
 
 
         <div className='check-buttons'>
