@@ -19,7 +19,7 @@ export default function Confirmation(props) {
         <div className='check-buttons'>
           <FaCheck className='return_accept' onClick={() => {props.setShow(false)}}/>
           <Link to='/main'><FaTimes className='return_decline'/></Link>
-          <img className='return-img' src='./media/photo-1501770118606-b1d640526693.avif'/>
+          <img className='return-img' src='./media/help.jpg'/>
         </div>
       </div>
     </div>
